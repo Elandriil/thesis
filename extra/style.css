@@ -1,0 +1,401 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { 
+	background-color: #202020;
+	/*background:url(bg_left.jpg) left top no-repeat, url(bg_right.jpg) right top no-repeat, #202020;
+	*/
+}
+
+/*img { 
+	height:100%;
+    width:100%;}
+*/
+
+#wrap {
+	border:0px solid #25b816;
+	width:910px;
+	margin:0 auto;
+	background:#202020;
+}
+		
+#header {
+	font-family:"Trebuchet MS";
+   	/*padding:5px 10px;
+	background:#202020;*/
+	background:url(../img/header_bg.png) no-repeat left bottom;
+	font-size:44px;
+	/*text-align:right;*/
+	color:#25b816;
+	margin:0 auto;
+	height:100px;
+}
+		
+#header img {
+	/*height:200px;
+	width:900px;
+	position:absolute;
+	left:0px;
+	margin-right:425px;*/
+}
+		
+h1 {
+	font-family:"Trebuchet MS";
+    margin:0; 
+}
+    
+#nav {
+	font-family:"Trebuchet MS";
+	text-align:center;
+	padding: 0px;
+	margin-left:33px;
+	margin-right:10px;
+	background:#202020;
+	border-top:1.8px solid #25b816;
+	border-bottom:1.8px solid #25b816;
+	height:1.8em;
+}
+
+#main { 
+	font-family:"Trebuchet MS";
+	float:left;
+	width:700px;
+	background:#202020;
+	color:#fff;
+	background: url(../img/main_bg_t.png) ,url(../img/main_bg_b.png) bottom left;
+	background-size:auto;
+	background-repeat:no-repeat;
+	text-align:center;
+	padding-top:60px; 
+	padding-right:30px;
+	padding-bottom:60px;
+}
+
+#inside {
+	font-family:"Trebuchet MS";
+	float:none;
+	padding-right:0px;
+	color:#fff;
+	text-align:center;
+	background-color:transparent;
+	width:553px;
+}
+	
+.art_link a:link {
+	font-family:"Trebuchet MS"; 
+	color: #FFF;
+	text-decoration:none;
+	text-align:right;
+}
+	
+.art_link a:hover { 
+	font-weight:bold; 
+	color: #25b816;
+	text-decoration:none;
+}
+	
+.art_link a:visited {
+	font-family:"Trebuchet MS"; 
+	color: #FFF;
+	text-decoration:none;
+	text-align:right;
+}
+
+.menu_link a:link {
+	font-family:"Trebuchet MS"; 
+	color: #FFF;
+	text-decoration:none;
+	background:#202020;
+}
+	
+.menu_link a:active { 
+	color: #FFF;
+	text-decoration:none;
+}
+	
+.menu_link a:hover { 
+	font-weight:bold; 
+	color: #FFF;
+	text-decoration:none;
+}
+
+#footer img {
+	height:15px;
+	width:15px;
+	float:right;
+}
+		
+#footer img:hover { 
+	width:25px; 
+	height:25px;
+}
+
+h2 {
+	margin:0 0 1em;
+}
+		
+#sidebar {
+	font-family:"Trebuchet MS";
+	float:right;
+	width:160px;
+	padding:10px;
+	background:#202020;
+	color:#fff;
+	border-left: 1px solid #25b816;
+	margin-left: -1px;
+}
+
+#sidebar img{
+width:100px;
+heught:100px;
+border:none;
+}
+
+#sidebar ul{
+	list-style-type: none;
+	vertical-align:top;
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar li {
+	display: inline-block;
+	float:left;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	
+}
+		
+#sidebar img {
+	border:none;
+	background:#202020;
+}
+		
+#counter {
+	vertical-align:bottom;
+}
+		
+#footer img {
+	border:none;
+}
+			
+#footer {
+	font-family:"Trebuchet MS";
+	clear:both;
+	padding:5px 10px;
+	background:#202020;
+	color:#fff;
+	border-top:1.8px solid #25b816;
+}
+		
+#footer p {
+	font-family:"Trebuchet MS";
+	margin:0; 
+}
+
+* html #footer {
+	height:1px;
+	font-family:"Trebuchet MS";
+}
+			
+#nav ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+	font-family:"Trebuchet MS";
+}
+		
+#nav li {
+	display:inline;
+	margin:0;
+	padding:0;
+	font-family:"Trebuchet MS";
+	width:100px;
+	text-align:center;
+	float:left;
+}
+		
+li a {
+	display:block;
+	/*padding:5px 10px;*/
+	height:100%;
+	color:#FFF;
+	text-decoration:none;
+	border-right:0px solid #25b816;
+	/*border-left:3px solid #25b816;
+	border-top:3px solid #25b816;*/
+	font-family:"Trebuchet MS";
+	
+}
+		
+li a {
+
+}
+		
+li a:hover, li a:focus, li a:active {
+	background-position:-150px 0;
+}
+		
+#b a {
+	background:url(../img/bg2.jpg) repeat 0 0;
+}
+		
+#c a {
+	background-color:#202020;
+}
+	
+#c a:hover {
+	background-color:#25b816;
+	width:auto;
+	height:1.6em;
+	color:#202020;
+	font-weight:normal;
+}
+	
+a.zoom span {
+	position: absolute;
+	visibility: hidden;
+}
+		
+a.zoom {
+	position: relative;
+	z-index: 0;
+}
+		
+a.zoom:hover {
+	z-index: 1;
+}
+		
+a.zoom:hover span {
+	visibility: visible;
+	/*top: 10;
+	left: 70px;*/
+	position:static;
+}
+	
+#zuum img {
+	height:40px;
+	width:40px;
+}
+		
+.txthold {
+	width: 182px;
+	height: 27px;
+	background: url(../img/txtbox.png) no-repeat;
+	float: left;
+}
+
+.txtbox {
+	width: 170px;
+	height: 22px;
+	background: none;
+	border: none;
+	color: #000000;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+#avatar img {
+	width:100px;
+	height:100px;
+	float:left
+}
+
+#avatar {
+	width:160px;
+	padding:3px;
+}
+
+#news {
+	table-layout:fixed;
+}	
+
+/* form  */
+.form_p {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+form {
+	margin:1em 0;
+	color:#fff;
+	width:272px; /* customize width, this form have fluid layout */
+}
+
+form h3 {
+	margin:0;
+	background:#25b816 url(../extra/pics/form/form_heading.gif) repeat-x;		
+	color:#fff;
+	font-size:20px;
+	border:1px solid #57a700;
+	border-bottom:none;
+}
+		
+form h3 span {
+	display:block;
+	padding:10px 20px;
+	background:url(../extra/pics/form/form_ico.gif) no-repeat 93% 50%;			
+}
+					
+form fieldset {
+	margin:0;
+	padding:0;
+	border:none;	
+	border-top:3px solid #000;
+	/*background:#000 url(pics/form/form_top.gif) repeat-x;	*/	
+	padding-bottom:1em;
+}	
+		
+form legend {
+	display:none;
+}
+	
+form p {
+	margin:.5em 20px; 
+	text-align:left;
+}
+	
+form label {
+	display:block;
+}	
+
+form input, form textarea, form select {		
+	width:272px;
+	border:1px solid #111;
+	background:#282828 url(../extra/pics/form/form_input.gif) repeat-x;
+	padding:5px 3px;
+	color:#fff;
+	box-shadow:0 0 30px #25b816;
+	outline:none;
+}
+			
+form textarea {
+	height:125px;
+	overflow:auto;
+}
+					
+form p.submit {
+	text-align:right;
+}
+		
+form button {
+	font-size:15px;
+	font-family:"Comic Sans MS";
+	padding:5px 3px;
+	height:32px;
+	width:120px;
+	line-height:32px;		
+	border:1px solid #70ad2e;
+	background:#006500 url(../extra/pics/form/form_button.gif) repeat-x;
+	color:#fff;
+	cursor:pointer;
+	text-align:center;
+	box-shadow:0 0 30px #25b816;
+	outline:none;
+}
+
+.error {
+	color:#373737;
+	font-style:italic;
+}				
